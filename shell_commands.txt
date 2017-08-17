@@ -1,0 +1,42 @@
+sed -i '' 's/^\([1-9]\)/t\1/g' *.speciestree.nex
+sed -i '' 's/^\([1-9]\)/t\1/g' *.concat.nex
+
+sed -i '' 's/t1:/Sp1:/g' *trimmed.tre
+sed -i '' 's/t4:/Sp2:/g' *trimmed.tre
+sed -i '' 's/t7:/Sp3:/g' *trimmed.tre
+sed -i '' 's/t10:/Sp4:/g' *trimmed.tre
+sed -i '' 's/t13:/Sp5:/g' *trimmed.tre
+sed -i '' 's/t16:/Sp6:/g' *trimmed.tre
+sed -i '' 's/t19:/Sp7:/g' *trimmed.tre
+sed -i '' 's/t22:/Sp8:/g' *trimmed.tre
+
+for i in {1..50}
+do
+cat 1Ne_3Ind_ST$i'_Seq.concat.trimmed.tre' >> 1Ner5.concat.trees
+done
+
+for i in {1..50}
+do
+cat 1Ne_3Ind_ST$i'_Seq.speciestree.nex.tree21.con.tre.new' >> 1Ner05.species.trees
+done
+
+
+mkdir trees/
+for i in $(ls *.speciestree.nex)
+do
+mb $i
+mv $i.tree21.con.tre trees/
+rm *.nex.*
+done
+
+for i in $(ls *.concat.nex)
+do
+mb $i
+mv $i.con.tre trees/
+rm *.nex.*
+
+for i in $(ls *.tre)
+do
+pxt2new -t $i > $i.new
+done
+

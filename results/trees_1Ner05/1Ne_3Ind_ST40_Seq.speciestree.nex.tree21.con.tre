@@ -1,0 +1,28 @@
+#NEXUS
+[ID: 5988438990]
+begin taxa;
+	dimensions ntax=8;
+	taxlabels
+		Sp1
+		Sp2
+		Sp3
+		Sp4
+		Sp5
+		Sp6
+		Sp7
+		Sp8
+		;
+end;
+begin trees;
+	translate
+		1	Sp1,
+		2	Sp2,
+		3	Sp3,
+		4	Sp4,
+		5	Sp5,
+		6	Sp6,
+		7	Sp7,
+		8	Sp8
+		;
+   tree con_all_compat = [&R] (3[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=3.02559925e-10,height_median=2.20000000e-10,height_95%HPD={0.00000000e+00,7.99999999e-10}]:5.225144e-03[&length_mean=4.81980279e-03,length_median=4.72956800e-03,length_95%HPD={3.74397900e-03,5.87693700e-03}],5[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=3.10768558e-10,height_median=2.45000000e-10,height_95%HPD={0.00000000e+00,9.20000000e-10}]:5.225144e-03[&length_mean=4.87050407e-03,length_median=4.90463000e-03,length_95%HPD={3.67267200e-03,5.89309100e-03}],7[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=3.23996605e-10,height_median=3.45000000e-10,height_95%HPD={0.00000000e+00,8.25000001e-10}]:5.225144e-03[&length_mean=4.87418399e-03,length_median=5.06877800e-03,length_95%HPD={3.71578700e-03,5.83979400e-03}],8[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=3.02468619e-10,height_median=2.68000000e-10,height_95%HPD={0.00000000e+00,6.65400000e-10}]:5.225144e-03[&length_mean=4.86198954e-03,length_median=5.04965500e-03,length_95%HPD={3.74458600e-03,5.96902700e-03}],(1[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=2.72306697e-10,height_median=2.45000000e-10,height_95%HPD={0.00000000e+00,7.69999999e-10}]:4.449842e-03[&length_mean=4.85193097e-03,length_median=4.98493300e-03,length_95%HPD={3.71578700e-03,5.99094800e-03}],2[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=3.31777665e-10,height_median=2.45000000e-10,height_95%HPD={0.00000000e+00,7.85000000e-10}]:4.449842e-03[&length_mean=4.86251043e-03,length_median=4.98594800e-03,length_95%HPD={3.61189200e-03,5.88247600e-03}])[&prob=2.19039577e-01,prob_stddev=2.42327966e-01,prob_range={4.76878292e-02,3.90391325e-01},prob(percent)="22",prob+-sd="22+-24",height_mean=4.31363332e-03,height_median=4.44984225e-03,height_95%HPD={3.61189222e-03,4.91568117e-03}]:7.753020e-04[&length_mean=9.30113212e-05,length_median=3.31368100e-05,length_95%HPD={2.04557900e-05,4.25837000e-04}],(4[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=3.66354251e-10,height_median=2.45000000e-10,height_95%HPD={0.00000000e+00,8.90000001e-10}]:5.059997e-03[&length_mean=4.80035631e-03,length_median=4.72956800e-03,length_95%HPD={3.73854300e-03,5.90105200e-03}],6[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=3.29700301e-10,height_median=2.59999999e-10,height_95%HPD={0.00000000e+00,8.90000001e-10}]:5.059997e-03[&length_mean=4.79397078e-03,length_median=5.05999600e-03,length_95%HPD={3.81082400e-03,6.11570700e-03}])[&prob=1.84795893e-01,prob_stddev=2.02668013e-01,prob_range={4.14879669e-02,3.28103820e-01},prob(percent)="18",prob+-sd="18+-20",height_mean=5.08157669e-03,height_median=5.05999689e-03,height_95%HPD={3.52017710e-03,5.79039308e-03}]:1.651473e-04[&length_mean=1.68146856e-04,length_median=1.91488200e-04,length_95%HPD={8.07661600e-05,2.62188500e-04}])[&prob=1.00000000e+00,prob_stddev=0.00000000e+00,prob_range={1.00000000e+00,1.00000000e+00},prob(percent)="100",prob+-sd="100+-0",height_mean=4.97665828e-03,height_median=5.22514422e-03,height_95%HPD={3.73904430e-03,5.99800140e-03}][&length_mean=0.00000000e+00,length_median=0.00000000e+00,length_95%HPD={0.00000000e+00,0.00000000e+00}];
+end;
